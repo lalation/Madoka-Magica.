@@ -1,1 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(255, 205, 226);
+    color: #ff0077;
+}
+#header{
+    background-repeat: no-repeat;
+    background-position: right;
+    background-attachment: fixed;
+}
+.intro-block{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    max-width: 1600px;
+}
+.intro-text{
+    padding-left: 20px;
+    margin-top: -200px ;
+    font-size: 35px;
+}
+.container{
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 3px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.logo{
+    width: 140px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    color: #ff0077;
+    text-decoration: wavy;
+    font-size: large;
+    position: relative;
+}
+nav ul li a::after{
+    content:'';
+    width: 0;
+    height: 3px;
+    background: rgb(247, 245, 123);
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;  
+}
+nav ul li a:hover::after{
+    width: 100%;
+}
+/* ----------Services---------- */
+#Services{
+    padding: 80px 0;
+    color: rgb(25, 151, 253);
+}
+.row{
+    display: flex ;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.about-col-1{
+    background-image: url(pics/bluey-removebg-preview.png);
+    background-repeat: repeat;
+    background-size: 10%;
+    
+}
+.about-col-2{
+    flex-basis: 60%;
+    color: #0066ff;
+    text-align: center;
+    margin-bottom: 50%;
+    margin-right: 10%;
+    margin-left: 15%;
+}
+/* ----------MyProjects---------- */
+#MyProjects{
+    padding: 30px 0;   
+}
+.MyProjects{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+.empty-image{
+    background-image: url(pics/yellow-removebg-preview.png);
+     background-repeat: repeat;
+    background-size: 10%;
+    
+}
+
+
 
