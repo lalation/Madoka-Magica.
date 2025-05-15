@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Madoka Magica</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+    <div class="container">
+        <nav>
+            <img src="pics/madoks__2_-removebg-preview (1).png" style="height: 60px; width: 60px;" class="logo">  
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+            
+
+            </ul>
+        </nav>
+    </div>  
+    </div>
+    <div class ="intro-block">
+    <section class="intro-text">
+        <p style="font-size: 40px;">Fashion Desginer</p>
+        <h1>Hi, I'm Olaitan Soetan From Nigeria</h1> 
+
+        </section>
+    <section class="intro-image">
+        <img src="pics/cheese2.png" class="background-image" placeholder="Profile-image">
+        </section>
+        </div>
+<!-- ----------about---------- -->  
+        <div class="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <div class="about-col-2">
+                            <h1 style="font-size: 70px; color: #0066ff;">About Us</h1>
+                            <p style="font-size: 20px;"> text tegxbebe njnjergnlkegnr ngngrgnr njnnj jgkjgnj 
+                                brbgjeg hgnr
+                                nrignrgnrinbrnbrignrig nrh
+                                girhg hirhgignignignignifni iehniegni nien
+                                dbrbjrbjrbjrbg nrignirgnrgnrj
+                                gneifjo3 ndnenj efneini ni
+                                dnfief ninif 
+                                ndvndinvinrnirgnirnr
+                                igi bvjrnvv brnienfi niefnienf nfenfei nfienfei 
+                                njvnfbnkrgmgmmgirrmgir imbormbrbmr krmrmormrmrmrmvvkrmvkrmrmv mrmrm
+                                vmirvirmirmrimbrmbibm mrmbr mirmi  </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- ---------- projects---------- -->
+ <div class="services">
+ <div class="container">
+     <div class="empty-image">
+    <h1 class="sub-title" style="font-size: 70px; margin-left: 30%; margin-right: 15%;">My Projects </h1>
+    <div class="MyProjects-list">
+            <h2 style="font-size: 50px;">My Works</h2>
+            <p> These ayrfhhjeheh behdhfhfhefh heuwfhw hvuevheu hhfj</p>
+            <h2>Madoka</h2>
+            <div>
+            <img src="pics/madokaa.jpg" style=" width: 30%; height: 40%; background-color: #351c00;" >   
+        </div>
+        <div>
+            <h2>Homura</h2>
+            <img src="pics/homura.jpg" style=" width: 30%; height: 40%">   
+        </div>
+        <div>
+            <h2>Sayaka</h2>
+            <img src="pics/sayaka.jpg" style=" width: 30%; height: 40%;">   
+        </div>
+        <div>
+            <h2>Mami</h2>
+            <img src="pics/mami.jpg" style=" width: 30%; height: 40%;">   
+        </div>
+        <div>
+            <h2>Kyoko</h2>
+            <img src="pics/sakura.jpg" style=" width: 30%; height: 40%;">   
+        </div>
+
+    </div>
+
+ </div>
+ </div>
+ </div>
+
+</body>
+</html>
